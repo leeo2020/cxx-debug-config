@@ -1,0 +1,58 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "llvm/Clang++ Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "/C",
+        "&",
+        "pause"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "lldb",
+      "miDebuggerPath": "E:/Cplus/LLVM/bin/lldb-mi.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "postDebugTask": "",
+      "preLaunchTask": "llvm clang++ build"
+    },
+    {
+      "name": "llvm/Clang Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "/C",
+        "&",
+        "pause"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "MIMode": "lldb",
+      "miDebuggerPath": "E:/Cplus/LLVM/bin/lldb-mi.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "llvm clang build"
+    }
+  ]
+}
