@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "llvm/Clang++ Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "stdio": null,
+      "terminal": "integrated",
+      "postDebugTask": "",
+      "preLaunchTask": "llvm/clang++ build"
+    },
+    {
+      "name": "llvm/Clang Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "stdio": null,
+      "terminal": "integrated",
+      "postDebugTask": "",
+      "preLaunchTask": "llvm/clang build"
+    }
+  ]
+}
