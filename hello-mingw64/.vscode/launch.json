@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "mingw64/C++ Debug Session",
+      "type": "gdb",
+      "request": "launch",
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "target": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnSessionStart",
+      "gdbpath": "E:/Cplus/MinGW/bin/gdb.exe",
+      "preLaunchTask": "mingw64 g++ build"
+    },
+    {
+      "name": "mingw64/Clang Debug Session",
+      "type": "gdb",
+      "request": "launch",
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "target": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnSessionStart",
+      "gdbpath": "E:/Cplus/MinGW/bin/gdb.exe",
+      "preLaunchTask": "mingw64 gcc build"
+    },
+  ]
+}
