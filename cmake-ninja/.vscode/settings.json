@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.ts": "typescript",
+    "*.java": "java",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "ostream": "cpp"
+  }
+}

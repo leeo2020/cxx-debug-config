@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "cygwin/C++ Debug Session",
+      "type": "gdb",
+      "request": "launch",
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build",
+      "target": "${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
+      "internalConsoleOptions": "openOnSessionStart",
+      "gdbpath": "E:/Cplus/cygwin/bin/gdb.exe",
+      "preLaunchTask": "cygwin/ninja build"
+    }
+  ]
+}
