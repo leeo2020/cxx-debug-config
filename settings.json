@@ -1,0 +1,351 @@
+{
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.fontSize": 16,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.CustomBrowser": "chrome",
+	"http.proxyStrictSSL": false,
+	"terminal.integrated.fontSize": 16,
+	"breadcrumbs.enabled": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"workbench.colorTheme": "One Dark Pro Darker",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.commandPalette.preserveInput": false,
+	"workbench.colorCustomizations": {
+		"[SynthWave '84]": {
+			"terminal.foreground": "#ff69b4",
+			"terminalCursor.foreground": "#3ED1B8"
+		},
+		"[Xcode Default (Dark)]": {
+			"terminal.foreground": "#ff69b4",
+			"terminalCursor.foreground": "#3ED1B8"
+		},
+		"[Lotus Dark]": {
+			"terminal.foreground": "#D4FFAA",
+			"terminalCursor.foreground": "#3ED1B8"
+		},
+		"ports.iconRunningProcessForeground": "#fc8742"
+	},
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"icon": "terminal-cmd"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"git.path": "E:\\Python\\GitHub\\Git\\bin",
+	"code-runner.clearPreviousOutput": true,
+	"code-runner.runInTerminal": true,
+	"code-runner.saveFileBeforeRun": true,
+	"code-runner.ignoreSelection": true,
+	"eslint.run": "onSave",
+	"editor.accessibilityPageSize": 12,
+	"files.associations": {
+		"*.ts": "typescript",
+		"*.java": "java",
+		"*.cjson": "jsonc",
+		"*.wxss": "css",
+		"*.wxs": "javascript"
+	},
+	"vetur.format.enable": true,
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+	"vetur.format.defaultFormatter.js": "vscode-typescript",
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"editor.tabSize": 2,
+	"eslint.format.enable": true,
+	"eslint.options": {
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"html",
+			"vue",
+			{
+				"language": "typescript"
+			},
+			"typescriptreact"
+		]
+	},
+	"cmake.configureOnOpen": false,
+	"C_Cpp.autocomplete": "Default",
+	"C_Cpp.default.cStandard": "c17",
+	"C_Cpp.default.cppStandard": "c++11",
+	"C_Cpp.default.intelliSenseMode": "gcc-x64",
+	"C_Cpp.default.enableConfigurationSquiggles": true,
+	"lldb.showDisassembly": "never",
+	"lldb.evaluateForHovers": true,
+	"lldb.commandCompletions": true,
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java",
+		"files.encoding": "utf8",
+		"editor.formatOnSave": true
+	},
+	"java.jdt.ls.java.home": "e:\\JavaX\\Jdk17",
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-11",
+			"path": "E:/JavaX/Jdk11",
+			"default": true
+		},
+		{
+			"name": "JavaSE-1.8",
+			"path": "E:/JavaX/Jdk8"
+		}
+	],
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"python.formatting.provider": "autopep8",
+	"pythonIndent.useTabOnHangingIndent": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": false
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"search.followSymlinks": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"files.autoGuessEncoding": true,
+	"http.proxyAuthorization": null,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"redhat.telemetry.enabled": false,
+	"markdown.preview.fontSize": 18,
+	"leetcode.workspaceFolder": "f:\\workSpace\\leetCode\\java",
+	"leetcode.defaultLanguage": "java",
+	"leetcode.hint.commandShortcut": false,
+	"leetcode.hint.configWebviewMarkdown": false,
+	"leetcode.endpoint": "leetcode-cn",
+	"go.toolsManagement.autoUpdate": true,
+	"react-native-tools.showUserTips": false,
+	"emmet.includeLanguages": {
+		"wxml": "html"
+	},
+	"minapp-vscode.disableAutoConfig": true,
+	"debug.onTaskErrors": "debugAnyway",
+	"python.languageServer": "Jedi",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"eslint.codeActionsOnSave.mode": "problems",
+	"eslint.migration.2_x": "off",
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools",
+		"editor.formatOnSave": true
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "xaver.clang-format",
+		"editor.formatOnSave": true
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.confirmDelete": false,
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"codeQL.telemetry.enableTelemetry": false,
+	"highlight.regexes": {
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#ffcc00",
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#cc0000",
+					"backgroundColor": "#cc0000",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#cc0000",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#00ccff",
+					"backgroundColor": "#00ccff",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#00ccff",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#cc00cc",
+					"backgroundColor": "#cc00cc",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#cc00cc",
+					"color": "#1f1f1f"
+				}
+			]
+		}
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+		"editor.formatOnSave": true
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"justMyCode": true
+			},
+			{
+				"type": "java",
+				"name": "Launch Main",
+				"request": "launch",
+				"mainClass": "${file}",
+				"projectName": "${file}"
+			},
+			{
+				"name": "C++ Debug Session",
+				"type": "cppdbg",
+				"request": "launch",
+				"args": [
+					"/C",
+					"&",
+					"pause"
+				],
+				"stopAtEntry": false,
+				"cwd": "${fileDirname}",
+				"environment": [],
+				"program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+				"internalConsoleOptions": "openOnSessionStart",
+				"MIMode": "gdb",
+				"miDebuggerPath": "E:/Cplus/cygwin/bin/gdb.exe",
+				"externalConsole": false,
+				"setupCommands": [
+					{
+						"description": "Enable pretty-printing for gdb",
+						"text": "-enable-pretty-printing",
+						"ignoreFailures": true
+					}
+				],
+				"postDebugTask": "",
+				"preLaunchTask": "C/C++: g++ build"
+			},
+			{
+				"name": "Clang Debug Session",
+				"type": "cppdbg",
+				"request": "launch",
+				"args": [
+					"/C",
+					"&",
+					"pause"
+				],
+				"stopAtEntry": false,
+				"cwd": "${fileDirname}",
+				"environment": [],
+				"program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+				"internalConsoleOptions": "openOnSessionStart",
+				"MIMode": "gdb",
+				"miDebuggerPath": "E:/Cplus/cygwin/bin/gdb.exe",
+				"externalConsole": false,
+				"setupCommands": [
+					{
+						"description": "Enable pretty-printing for gdb",
+						"text": "-enable-pretty-printing",
+						"ignoreFailures": true
+					}
+				],
+				"preLaunchTask": "C/C++: gcc build"
+			}
+		]
+	},
+	"git.confirmSync": false,
+	"editor.foldingMaximumRegions": 20000,
+	"objectscript.ignoreInstallServerManager": true,
+	"terminal.integrated.commandsToSkipShell": [
+		"language-julia.interrupt"
+	],
+	"julia.symbolCacheDownload": true,
+	"julia.enableTelemetry": false,
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"FSharp.suggestGitignore": false,
+	"debug.console.closeOnEnd": true,
+	"debug.disassemblyView.showSourceCode": false,
+	"debug.terminal.clearBeforeReusing": true,
+	"debug.openExplorerOnEnd": true,
+	"update.mode": "manual",
+	"clang-format.executable": "",
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.note-new-transformation": false,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"vite.autoStart": false,
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.formatOnSave": true,
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"update.showReleaseNotes": false,
+	"git.openRepositoryInParentFolders": "always",
+	"totalTypeScript.hideAllTips": false,
+	"totalTypeScript.hideBasicTips": false,
+	"git.ignoreMissingGitWarning": true,
+	"svg.preview.autoShow": true,
+	"svg.preview.backgroundCustom": "#fff",
+}
